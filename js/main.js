@@ -13,6 +13,7 @@ var mensaje;
 
 function enviar (){
     mensaje = `https://api.whatsapp.com/send?phone=524651095580&text=${datoNombre.value}%20${datoMensaje.value} `;
+    alert(mensaje);
     btnEnviar.href= mensaje;
 }
 //Fecha a futuro

@@ -13,11 +13,8 @@ var mensaje;
 
 function enviar (){
     mensaje = `https://api.whatsapp.com/send?phone=524651095580&text=${datoNombre.value}%20${datoMensaje.value} `;
-    alert(mensaje);
     btnEnviar.href= mensaje;
 }
-//Fecha a futuro
-const countdownDate = new Date('10 19, 2024 13:00:00').getTime();
 
 let interval = setInterval(function(){
     //Obtener fecha actual y milisegundos

@@ -14,6 +14,6 @@ var mensaje;
 
 function enviar (){
     console.log('llego');
-    mensaje = `https://api.whatsapp.com/send?phone=NUMERO&text=${datoNombre.value}%20${datoMensaje.value} `;
+    mensaje = `https://api.whatsapp.com/send?phone=524651095580&text=${datoNombre.value}%20${datoMensaje.value} `;
     btnEnviar.href= mensaje;
 }

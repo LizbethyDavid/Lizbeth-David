@@ -14,6 +14,7 @@ var mensaje;
 
 function enviar (){
     console.log('llego');
-    mensaje = `https://api.whatsapp.com/send?phone=524651095580&text=${datoNombre.value}%20${datoMensaje.value} `;
+    mensaje = `https://api.whatsapp.com/send?phone=524651095580&text=Hola%20,te%20asesoramos%20por
+%20whatsapp%20gestiona%20tu%20compra%20por%20este%20canal`;
     btnEnviar.href= mensaje;
 }

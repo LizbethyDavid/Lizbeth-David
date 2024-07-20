@@ -1,20 +1,10 @@
 const $days = document.getElementById('days'),
 $hours = document.getElementById('hours'),
 $minutes = document.getElementById('minutes'),
-$seconds = document.getElementById('seconds');
-const datoNombre = document.querySelector('#datoNombre');
-const datoMensaje = document.querySelector('#datoMensaje');
-const btnEnviar = document.querySelector('#btnEnviar');
+$seconds = document.getElementById('seconds')
 
 //Fecha a futuro
 const countdownDate = new Date('10 19, 2024 13:00:00').getTime();
-
-var mensaje;
-
-function enviar (){
-    mensaje = `https://api.whatsapp.com/send?phone=524651095580&text=${datoNombre.value}%20${datoMensaje.value} `;
-    btnEnviar.href= mensaje;
-}
 
 let interval = setInterval(function(){
     //Obtener fecha actual y milisegundos

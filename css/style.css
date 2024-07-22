@@ -45,6 +45,39 @@ a {
     -o-transition: all .3s ease-in-out;
     transition: all .3s ease-in-out;
 }
+.bcolor{
+    background-color: #dd666c;
+    color: #ffffff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 18px;
+    font-family: 'Barlow', sans-serif; /* Tipo de letra del texto */
+}
+.label{
+    font-family: 'Barlow', sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    text-align: center;
+    font-size: 18px;
+    color: #666666;
+}
+.input{
+    width: 18%; /* Ancho completo del input */
+    padding: 8px; /* Espaciado interno del input */
+    margin: 5px 0; /* Margen alrededor del input */
+    font-family: 'Barlow', sans-serif ;
+    color: #666666;
+    font-weight: 400;
+    font-style: normal;
+    text-align: center;
+    border-color: #666666;
+    outline: none;
+    font-size: 17px; /* Tamaño del texto dentro del input */
+    border: 1px solid #ccc; /* Borde del input */
+    border-radius: 4px; /* Borde redondeado del input */
+}
 
 h1,
 h2,

@@ -45,7 +45,7 @@ a {
     -o-transition: all .3s ease-in-out;
     transition: all .3s ease-in-out;
 }
-.bcolor{
+.bcolor a{
     background-color: #dd666c;
     color: #ffffff;
     padding: 10px 20px;
